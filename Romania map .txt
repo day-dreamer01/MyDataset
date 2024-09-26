@@ -1,0 +1,27 @@
+This  dataset is for DFS
+nodeList= {'Arad':['Sibiu','Timisora'],'Sibiu':['Arad','Timisora','Fagarus'],'Timisora':['Arad','Dorbeta'],'Dorbeta':['Timisora','Craiova'],'Fagarus':['Sibiu','Bucharest'],'Bucharest':['Dorbeta','Fagarus']}
+
+
+This datset is for IDDFS
+romania_map = {
+    'Arad': ['Sibiu', 'Timisoara', 'Zerind'],
+    'Zerind': ['Arad', 'Oradea'],
+    'Oradea': ['Zerind', 'Sibiu'],
+    'Sibiu': ['Arad', 'Oradea', 'Fagaras', 'Rimnicu Vilcea'],
+    'Timisoara': ['Arad', 'Lugoj'],
+    'Lugoj': ['Timisoara', 'Mehadia'],
+    'Mehadia': ['Lugoj', 'Drobeta'],
+    'Drobeta': ['Mehadia', 'Craiova'],
+    'Rimnicu Vilcea': ['Sibiu', 'Pitesti', 'Craiova'],
+    'Craiova': ['Drobeta', 'Rimnicu Vilcea', 'Pitesti'],
+    'Fagaras': ['Sibiu', 'Bucharest'],
+    'Pitesti': ['Rimnicu Vilcea', 'Craiova', 'Bucharest'],
+    'Bucharest': ['Fagaras', 'Pitesti', 'Giurgiu', 'Urziceni'],
+    'Giurgiu': ['Bucharest'],
+    'Urziceni': ['Bucharest', 'Hirsova', 'Vaslui'],
+    'Hirsova': ['Urziceni', 'Eforie'],
+    'Eforie': ['Hirsova'],
+    'Vaslui': ['Urziceni', 'Iasi'],
+    'Iasi': ['Vaslui', 'Neamt'],
+    'Neamt': ['Iasi']
+}
